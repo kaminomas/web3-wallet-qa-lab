@@ -8,11 +8,20 @@
     "node": ">=20"
   },
   "scripts": {
-    "lint": "echo 'lint placeholder'",
-    "test": "echo 'test placeholder'"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "echo \"test placeholder\""
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.0.0",
+    "eslint": "^10.3.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3",
     "typescript": "^5.6.0",
-    "@types/node": "^22.0.0"
+    "typescript-eslint": "^8.59.3"
   }
 }

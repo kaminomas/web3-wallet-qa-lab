@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+pnpm-lock.yaml
+contracts/out/
+contracts/cache/
+playwright-report/
+test-results/
+allure-results/
