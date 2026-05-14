@@ -32,10 +32,10 @@
   "lint-staged": {
     "*.{ts,tsx,mts,cts}": [
       "eslint --fix",
-      "prettier --write"
+      "prettier --write --ignore-path .prettierignore"
     ],
     "*.{js,mjs,cjs,json,md,yml,yaml}": [
-      "prettier --write"
+      "prettier --write --ignore-path .prettierignore"
     ]
   }
 }

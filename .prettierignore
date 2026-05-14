@@ -4,6 +4,7 @@ build/
 pnpm-lock.yaml
 contracts/out/
 contracts/cache/
+contracts/lib/
 playwright-report/
 test-results/
 allure-results/
