@@ -31,6 +31,30 @@ jobs:
       - name: Lint
         run: pnpm lint
 
-  # contracts: enabled in P1
+  contracts:
+    name: Foundry Contracts
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: contracts
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+
+      - name: Show forge version
+        run: forge --version
+
+      - name: Build
+        run: forge build --sizes
+
+      - name: Test
+        run: forge test -vv
+
   # wallet-driver: enabled in P3
   # extension-e2e: enabled in P4

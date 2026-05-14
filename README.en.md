@@ -39,7 +39,7 @@ cp .env.example .env   # fill in Alchemy key
 ## Progress
 
 - [x] P0 — Scaffolding
-- [ ] P1 — Contracts (ERC-20 / 721 / 4337)
+- [x] P1 — Contracts (ERC-20 / 721 / 4337) — 27 tests passing
 - [ ] P2 — Chain env (Anvil fork)
 - [ ] P3 — Wallet Driver (viem)
 - [ ] P4 — Extension E2E

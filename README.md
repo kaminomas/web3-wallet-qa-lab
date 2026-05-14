@@ -62,7 +62,7 @@ cp .env.example .env          # 配置环境变量（填 Alchemy key）
 ## 进度
 
 - [x] P0 — 仓库脚手架
-- [ ] P1 — 合约层（ERC-20 / 721 / 4337）
+- [x] P1 — 合约层（ERC-20 / 721 / 4337）— 27 tests passing
 - [ ] P2 — 链环境（Anvil fork）
 - [ ] P3 — Wallet Driver（viem）
 - [ ] P4 — Extension E2E
